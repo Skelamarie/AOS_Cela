@@ -56,7 +56,6 @@ class MainActivity : ComponentActivity() {
             DarkGreenTheme {
                 Scaffold(
                     modifier = Modifier.fillMaxSize()
-                    // REMOVED: containerColor override to restore clean systemic dark background
                 ) { innerPadding ->
                     GamifiedSpendingTrackerScreen(innerPadding)
                 }
