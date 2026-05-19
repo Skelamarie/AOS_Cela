@@ -274,7 +274,7 @@ fun GamifiedSpendingTrackerScreen(innerPadding: PaddingValues) {
             OutlinedTextField(
                 value = descriptionInput,
                 onValueChange = { descriptionInput = it },
-                label = { Text("What did you buy?") },
+                label = { Text("What did you spend on?") },
                 modifier = Modifier.fillMaxWidth(),
                 singleLine = true,
                 colors = customTextFieldColors
