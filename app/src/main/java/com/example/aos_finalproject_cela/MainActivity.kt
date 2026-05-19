@@ -118,7 +118,7 @@ fun GamifiedSpendingTrackerScreen(innerPadding: PaddingValues) {
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    text = "🏆 Monthly Expenses Meter",
+                    text = "🏆 Monthly Expense Meter",
                     fontSize = 22.sp,
                     fontWeight = FontWeight.Bold,
                     color = Color.White
